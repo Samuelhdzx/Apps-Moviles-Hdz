@@ -29,3 +29,5 @@ let suma = a+b;
 let resta = a-b;
 let multi = a*b;
 let division = a/b;
+
+//git add . / git commit -m "18/09/2024 Hernandez Samuel"
