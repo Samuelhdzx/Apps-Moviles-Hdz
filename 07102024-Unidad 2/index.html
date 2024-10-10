@@ -1,42 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="styl2.css">
+<!DOCTYPE html> <!-- Declara que este documento es HTML5 -->
+<html lang="en"> <!-- Elemento raíz del documento HTML, con el atributo de idioma inglés -->
+<head> <!-- Contiene metadatos sobre el documento -->
+    <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres del documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para dispositivos móviles -->
+    <title>Calculadora</title> <!-- Define el título de la página que se muestra en la pestaña del navegador -->
+    <link rel="stylesheet" href="styl2.css"> <!-- Enlaza la hoja de estilos externa -->
 </head>
-<body>
-    <div class="calulator">
-    <input type="text" id="display" class="calculator-seen" value="" disabled>
+<body> <!-- Contiene el contenido visible de la página -->
+    <div class="calulator"> <!-- Contenedor principal de la calculadora -->
+    <input type="text" id="display" class="calculator-seen" value="" disabled> <!-- Campo de entrada para mostrar los cálculos, deshabilitado para entrada directa -->
     
-        <div class="calculator-buttons">
-        <button class="button" onclick="clearDisplay()">C</button>
-        <button class="button" onclick="deleteLast()">DEL</button>
-        <button class="button" onclick="appendToDisplay('/')">/</button>
-        <button class="button" onclick="appendToDisplay('*')">*</button>
+        <div class="calculator-buttons"> <!-- Contenedor para los botones de la calculadora -->
+        <button class="button" onclick="clearDisplay()">C</button> <!-- Botón para borrar la pantalla -->
+        <button class="button" onclick="deleteLast()">DEL</button> <!-- Botón para borrar el último carácter -->
+        <button class="button" onclick="appendToDisplay('/')">/</button> <!-- Botón de división -->
+        <button class="button" onclick="appendToDisplay('*')">*</button> <!-- Botón de multiplicación -->
     
-        <button class="button" onclick="appendToDisplay('7')">7</button>
-        <button class="button" onclick="appendToDisplay('8')">8</button>
-        <button class="button" onclick="appendToDisplay('9')">9</button>
-        <button class="button" onclick="appendToDisplay('-')">-</button>
+        <button class="button" onclick="appendToDisplay('7')">7</button> <!-- Botón para el número 7 -->
+        <button class="button" onclick="appendToDisplay('8')">8</button> <!-- Botón para el número 8 -->
+        <button class="button" onclick="appendToDisplay('9')">9</button> <!-- Botón para el número 9 -->
+        <button class="button" onclick="appendToDisplay('-')">-</button> <!-- Botón de resta -->
     
-        <button class="button" onclick="appendToDisplay('4')">4</button>
-        <button class="button" onclick="appendToDisplay('5')">5</button>
-        <button class="button" onclick="appendToDisplay('6')">6</button>
-        <button class="button" onclick="appendToDisplay('+')">+</button>
+        <button class="button" onclick="appendToDisplay('4')">4</button> <!-- Botón para el número 4 -->
+        <button class="button" onclick="appendToDisplay('5')">5</button> <!-- Botón para el número 5 -->
+        <button class="button" onclick="appendToDisplay('6')">6</button> <!-- Botón para el número 6 -->
+        <button class="button" onclick="appendToDisplay('+')">+</button> <!-- Botón de suma -->
     
-        <button class="button" onclick="appendToDisplay('1')">1</button>
-        <button class="button" onclick="appendToDisplay('2')">2</button>
-        <button class="button" onclick="appendToDisplay('3')">3</button>
-        <button class="button equal-button" onclick="calculateResult()">=</button>
+        <button class="button" onclick="appendToDisplay('1')">1</button> <!-- Botón para el número 1 -->
+        <button class="button" onclick="appendToDisplay('2')">2</button> <!-- Botón para el número 2 -->
+        <button class="button" onclick="appendToDisplay('3')">3</button> <!-- Botón para el número 3 -->
+        <button class="button equal-button" onclick="calculateResult()">=</button> <!-- Botón de igual para calcular el resultado -->
     
-        <button class="button" onclick="appendToDisplay('0')">0</button>
-        <button class="button" onclick="appendToDisplay('.')">.</button>
+        <button class="button" onclick="appendToDisplay('0')">0</button> <!-- Botón para el número 0 -->
+        <button class="button" onclick="appendToDisplay('.')">.</button> <!-- Botón para el punto decimal -->
         </div>
 
     </div>
     
-    <script src="scrip2.js"></script>
+    <script src="scrip2.js"></script> <!-- Enlaza el archivo de script externo -->
 </body>
 </html>
